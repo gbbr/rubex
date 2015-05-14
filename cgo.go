@@ -1,4 +1,4 @@
 package rubex
 
-// #cgo pkg-config: oniguruma
+// #cgo CFLAGS: -Ionig/
 import "C"
